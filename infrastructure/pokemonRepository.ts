@@ -1,5 +1,5 @@
-import { Pokemon } from '../domain/Pokemon';
-import { PokemonRepository } from '../domain/PokemonRepository';
+import type { Pokemon } from '../domain/Pokemon';
+import type { PokemonRepository } from '../domain/PokemonRepository';
 import { pokemonsMock } from '../mocks/pokemons.mock';
 
 export class MockPokemonRepository implements PokemonRepository {

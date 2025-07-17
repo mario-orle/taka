@@ -1,5 +1,5 @@
-import { Pokemon } from '../domain/Pokemon';
-import { PokemonRepository } from '../domain/PokemonRepository';
+import type { Pokemon } from '../domain/Pokemon';
+import type { PokemonRepository } from '../domain/PokemonRepository';
 
 export const getAllPokemons = (repo: PokemonRepository): Promise<Pokemon[]> => {
   return repo.getAll();

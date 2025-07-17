@@ -1,4 +1,4 @@
-import { Pokemon } from '../domain/Pokemon';
+import type { Pokemon } from '../domain/Pokemon';
 
 export const pokemonsMock: Pokemon[] = [
   {

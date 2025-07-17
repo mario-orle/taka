@@ -1,4 +1,4 @@
-import { Pokemon } from './Pokemon';
+import type { Pokemon } from './Pokemon';
 
 export interface PokemonRepository {
   getAll(): Promise<Pokemon[]>;
